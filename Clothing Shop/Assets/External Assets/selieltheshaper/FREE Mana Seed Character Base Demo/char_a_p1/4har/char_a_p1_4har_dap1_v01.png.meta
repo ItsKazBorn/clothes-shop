@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_0
+      name: char_standing_down
       rect:
         serializedVersion: 2
         x: 16
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_1
+      name: char_v01_1
       rect:
         serializedVersion: 2
         x: 80
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_2
+      name: char_v01_2
       rect:
         serializedVersion: 2
         x: 144
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_3
+      name: char_v01_3
       rect:
         serializedVersion: 2
         x: 208
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_4
+      name: char_v01_4
       rect:
         serializedVersion: 2
         x: 272
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_5
+      name: char_v01_5
       rect:
         serializedVersion: 2
         x: 336
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_6
+      name: char_v01_6
       rect:
         serializedVersion: 2
         x: 400
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_7
+      name: char_v01_7
       rect:
         serializedVersion: 2
         x: 464
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_8
+      name: char_standing_up
       rect:
         serializedVersion: 2
         x: 16
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_9
+      name: char_v01_9
       rect:
         serializedVersion: 2
         x: 80
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_10
+      name: char_v01_10
       rect:
         serializedVersion: 2
         x: 144
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_11
+      name: char_v01_11
       rect:
         serializedVersion: 2
         x: 208
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_12
+      name: char_v01_12
       rect:
         serializedVersion: 2
         x: 272
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_13
+      name: char_v01_13
       rect:
         serializedVersion: 2
         x: 336
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_14
+      name: char_v01_14
       rect:
         serializedVersion: 2
         x: 400
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_15
+      name: char_v01_15
       rect:
         serializedVersion: 2
         x: 464
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_16
+      name: char_standing_right
       rect:
         serializedVersion: 2
         x: 16
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_17
+      name: char_v01_17
       rect:
         serializedVersion: 2
         x: 80
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_18
+      name: char_v01_18
       rect:
         serializedVersion: 2
         x: 144
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_19
+      name: char_v01_19
       rect:
         serializedVersion: 2
         x: 208
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_20
+      name: char_v01_20
       rect:
         serializedVersion: 2
         x: 272
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_21
+      name: char_v01_21
       rect:
         serializedVersion: 2
         x: 336
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_22
+      name: char_v01_22
       rect:
         serializedVersion: 2
         x: 400
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_23
+      name: char_v01_23
       rect:
         serializedVersion: 2
         x: 464
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_24
+      name: char_standing_left
       rect:
         serializedVersion: 2
         x: 16
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_25
+      name: char_v01_25
       rect:
         serializedVersion: 2
         x: 80
@@ -662,7 +662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_26
+      name: char_v01_26
       rect:
         serializedVersion: 2
         x: 144
@@ -683,7 +683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_27
+      name: char_v01_27
       rect:
         serializedVersion: 2
         x: 208
@@ -704,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_28
+      name: char_v01_28
       rect:
         serializedVersion: 2
         x: 272
@@ -725,7 +725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_29
+      name: char_v01_29
       rect:
         serializedVersion: 2
         x: 336
@@ -746,7 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_30
+      name: char_v01_30
       rect:
         serializedVersion: 2
         x: 400
@@ -767,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_31
+      name: char_v01_31
       rect:
         serializedVersion: 2
         x: 464
@@ -788,7 +788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_32
+      name: char_walk_cycle_down_01
       rect:
         serializedVersion: 2
         x: 16
@@ -809,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_33
+      name: char_walk_cycle_down_02
       rect:
         serializedVersion: 2
         x: 80
@@ -830,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_34
+      name: char_walk_cycle_down_03
       rect:
         serializedVersion: 2
         x: 144
@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_35
+      name: char_walk_cycle_down_04
       rect:
         serializedVersion: 2
         x: 208
@@ -872,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_36
+      name: char_walk_cycle_down_05
       rect:
         serializedVersion: 2
         x: 272
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_37
+      name: char_walk_cycle_down_06
       rect:
         serializedVersion: 2
         x: 336
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_38
+      name: char_walk_cycle_down_07
       rect:
         serializedVersion: 2
         x: 400
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_39
+      name: char_walk_cycle_down_08
       rect:
         serializedVersion: 2
         x: 464
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_40
+      name: char_walk_cycle_up_01
       rect:
         serializedVersion: 2
         x: 16
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_41
+      name: char_walk_cycle_up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -998,7 +998,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_42
+      name: char_walk_cycle_up_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1019,7 +1019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_43
+      name: char_walk_cycle_up_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1040,7 +1040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_44
+      name: char_walk_cycle_up_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_45
+      name: char_walk_cycle_up_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1082,7 +1082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_46
+      name: char_walk_cycle_up_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_47
+      name: char_walk_cycle_up_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1124,7 +1124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_48
+      name: char_walk_cycle_right_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1145,7 +1145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_49
+      name: char_walk_cycle_right_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_50
+      name: char_walk_cycle_right_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1187,7 +1187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_51
+      name: char_walk_cycle_right_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1208,7 +1208,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_52
+      name: char_walk_cycle_right_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1229,7 +1229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_53
+      name: char_walk_cycle_right_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1250,7 +1250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_54
+      name: char_walk_cycle_right_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1271,7 +1271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_55
+      name: char_walk_cycle_right_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1292,7 +1292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_56
+      name: char_walk_cycle_left_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1313,7 +1313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_57
+      name: char_walk_cycle_left_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1334,7 +1334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_58
+      name: char_walk_cycle_left_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1355,7 +1355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_59
+      name: char_walk_cycle_left_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1376,7 +1376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_60
+      name: char_walk_cycle_left_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1397,7 +1397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_61
+      name: char_walk_cycle_left_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1418,7 +1418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_62
+      name: char_walk_cycle_left_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1439,7 +1439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_4har_dap1_v01_63
+      name: char_walk_cycle_left_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1470,70 +1470,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_4har_dap1_v01_52: -963344737
-      char_a_p1_4har_dap1_v01_24: -997693705
-      char_a_p1_4har_dap1_v01_27: 742175298
-      char_a_p1_4har_dap1_v01_57: 2092966554
-      char_a_p1_4har_dap1_v01_0: 52899421
-      char_a_p1_4har_dap1_v01_48: -1596669999
-      char_a_p1_4har_dap1_v01_43: 991808301
-      char_a_p1_4har_dap1_v01_61: -1893088169
-      char_a_p1_4har_dap1_v01_20: -1561141019
-      char_a_p1_4har_dap1_v01_3: -76549000
-      char_a_p1_4har_dap1_v01_18: -2106721813
-      char_a_p1_4har_dap1_v01_5: 1782646957
-      char_a_p1_4har_dap1_v01_19: -304592963
-      char_a_p1_4har_dap1_v01_1: 834117498
-      char_a_p1_4har_dap1_v01_28: -73317942
-      char_a_p1_4har_dap1_v01_38: -1748750353
-      char_a_p1_4har_dap1_v01_35: -2142461360
-      char_a_p1_4har_dap1_v01_46: 1742891209
-      char_a_p1_4har_dap1_v01_33: -1684223324
-      char_a_p1_4har_dap1_v01_34: 1841545145
-      char_a_p1_4har_dap1_v01_47: -84054516
-      char_a_p1_4har_dap1_v01_56: 280656211
-      char_a_p1_4har_dap1_v01_30: -1634836780
-      char_a_p1_4har_dap1_v01_41: -1839981326
-      char_a_p1_4har_dap1_v01_7: -31456956
-      char_a_p1_4har_dap1_v01_17: 1765045188
-      char_a_p1_4har_dap1_v01_9: -291600968
-      char_a_p1_4har_dap1_v01_22: -1907619489
-      char_a_p1_4har_dap1_v01_16: 625866679
-      char_a_p1_4har_dap1_v01_44: 79091974
-      char_a_p1_4har_dap1_v01_40: -66220073
-      char_a_p1_4har_dap1_v01_21: -811909008
-      char_a_p1_4har_dap1_v01_58: -1408240871
-      char_a_p1_4har_dap1_v01_37: -735589358
-      char_a_p1_4har_dap1_v01_50: -856683769
-      char_a_p1_4har_dap1_v01_29: -1428635881
-      char_a_p1_4har_dap1_v01_11: 856398919
-      char_a_p1_4har_dap1_v01_60: -354840398
-      char_a_p1_4har_dap1_v01_62: -672574174
-      char_a_p1_4har_dap1_v01_8: -842274544
-      char_a_p1_4har_dap1_v01_25: 369586794
-      char_a_p1_4har_dap1_v01_55: -806642629
-      char_a_p1_4har_dap1_v01_4: -1689919853
-      char_a_p1_4har_dap1_v01_32: -2022689034
-      char_a_p1_4har_dap1_v01_15: 1009898567
-      char_a_p1_4har_dap1_v01_31: 1235753275
-      char_a_p1_4har_dap1_v01_63: -922638302
-      char_a_p1_4har_dap1_v01_42: 261478378
-      char_a_p1_4har_dap1_v01_53: 71541603
-      char_a_p1_4har_dap1_v01_45: 1861299189
-      char_a_p1_4har_dap1_v01_51: -624578403
-      char_a_p1_4har_dap1_v01_36: -1799293386
-      char_a_p1_4har_dap1_v01_54: -389326862
-      char_a_p1_4har_dap1_v01_39: -455684725
-      char_a_p1_4har_dap1_v01_10: 429630986
-      char_a_p1_4har_dap1_v01_14: -685161432
-      char_a_p1_4har_dap1_v01_2: -633670742
-      char_a_p1_4har_dap1_v01_12: -509954280
-      char_a_p1_4har_dap1_v01_49: 678233235
-      char_a_p1_4har_dap1_v01_23: 792407718
-      char_a_p1_4har_dap1_v01_59: -113396700
-      char_a_p1_4har_dap1_v01_26: -179250772
-      char_a_p1_4har_dap1_v01_13: 934149563
-      char_a_p1_4har_dap1_v01_6: -2083304894
+      char_walk_cycle_right_05: -963344737
+      char_standing_left: -997693705
+      char_v01_27: 742175298
+      char_walk_cycle_left_02: 2092966554
+      char_standing_down: 52899421
+      char_walk_cycle_right_01: -1596669999
+      char_walk_cycle_up_04: 991808301
+      char_walk_cycle_left_06: -1893088169
+      char_v01_20: -1561141019
+      char_v01_3: -76549000
+      char_v01_18: -2106721813
+      char_v01_5: 1782646957
+      char_v01_19: -304592963
+      char_v01_1: 834117498
+      char_v01_28: -73317942
+      char_walk_cycle_down_07: -1748750353
+      char_walk_cycle_down_04: -2142461360
+      char_walk_cycle_up_07: 1742891209
+      char_walk_cycle_down_02: -1684223324
+      char_walk_cycle_down_03: 1841545145
+      char_walk_cycle_up_08: -84054516
+      char_walk_cycle_left_01: 280656211
+      char_v01_30: -1634836780
+      char_walk_cycle_up_02: -1839981326
+      char_v01_7: -31456956
+      char_v01_17: 1765045188
+      char_v01_9: -291600968
+      char_v01_22: -1907619489
+      char_standing_right: 625866679
+      char_walk_cycle_up_05: 79091974
+      char_walk_cycle_up_01: -66220073
+      char_v01_21: -811909008
+      char_walk_cycle_left_03: -1408240871
+      char_walk_cycle_down_06: -735589358
+      char_walk_cycle_right_03: -856683769
+      char_v01_29: -1428635881
+      char_v01_11: 856398919
+      char_walk_cycle_left_05: -354840398
+      char_walk_cycle_left_07: -672574174
+      char_standing_up: -842274544
+      char_v01_25: 369586794
+      char_walk_cycle_right_08: -806642629
+      char_v01_4: -1689919853
+      char_walk_cycle_down_01: -2022689034
+      char_v01_15: 1009898567
+      char_v01_31: 1235753275
+      char_walk_cycle_left_08: -922638302
+      char_walk_cycle_up_03: 261478378
+      char_walk_cycle_right_06: 71541603
+      char_walk_cycle_up_06: 1861299189
+      char_walk_cycle_right_04: -624578403
+      char_walk_cycle_down_05: -1799293386
+      char_walk_cycle_right_07: -389326862
+      char_walk_cycle_down_08: -455684725
+      char_v01_10: 429630986
+      char_v01_14: -685161432
+      char_v01_2: -633670742
+      char_v01_12: -509954280
+      char_walk_cycle_right_02: 678233235
+      char_v01_23: 792407718
+      char_walk_cycle_left_04: -113396700
+      char_v01_26: -179250772
+      char_v01_13: 934149563
+      char_v01_6: -2083304894
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

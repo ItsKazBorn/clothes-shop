@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_0
+      name: char_standing_down
       rect:
         serializedVersion: 2
         x: 16
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_1
+      name: char_v01_1
       rect:
         serializedVersion: 2
         x: 80
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_2
+      name: char_v01_2
       rect:
         serializedVersion: 2
         x: 144
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_3
+      name: char_v01_3
       rect:
         serializedVersion: 2
         x: 208
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_4
+      name: char_v01_4
       rect:
         serializedVersion: 2
         x: 272
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_5
+      name: char_v01_5
       rect:
         serializedVersion: 2
         x: 336
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_6
+      name: char_v01_6
       rect:
         serializedVersion: 2
         x: 400
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_7
+      name: char_v01_7
       rect:
         serializedVersion: 2
         x: 464
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_8
+      name: char_standing_up
       rect:
         serializedVersion: 2
         x: 16
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_9
+      name: char_v01_9
       rect:
         serializedVersion: 2
         x: 80
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_10
+      name: char_v01_10
       rect:
         serializedVersion: 2
         x: 144
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_11
+      name: char_v01_11
       rect:
         serializedVersion: 2
         x: 208
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_12
+      name: char_v01_12
       rect:
         serializedVersion: 2
         x: 272
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_13
+      name: char_v01_13
       rect:
         serializedVersion: 2
         x: 336
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_14
+      name: char_v01_14
       rect:
         serializedVersion: 2
         x: 400
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_15
+      name: char_v01_15
       rect:
         serializedVersion: 2
         x: 464
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_16
+      name: char_standing_right
       rect:
         serializedVersion: 2
         x: 16
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_17
+      name: char_v01_17
       rect:
         serializedVersion: 2
         x: 80
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_18
+      name: char_v01_18
       rect:
         serializedVersion: 2
         x: 144
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_19
+      name: char_v01_19
       rect:
         serializedVersion: 2
         x: 208
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_20
+      name: char_v01_20
       rect:
         serializedVersion: 2
         x: 272
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_21
+      name: char_v01_21
       rect:
         serializedVersion: 2
         x: 336
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_22
+      name: char_v01_22
       rect:
         serializedVersion: 2
         x: 400
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_23
+      name: char_v01_23
       rect:
         serializedVersion: 2
         x: 464
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_24
+      name: char_standing_left
       rect:
         serializedVersion: 2
         x: 16
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_25
+      name: char_v01_25
       rect:
         serializedVersion: 2
         x: 80
@@ -662,7 +662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_26
+      name: char_v01_26
       rect:
         serializedVersion: 2
         x: 144
@@ -683,7 +683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_27
+      name: char_v01_27
       rect:
         serializedVersion: 2
         x: 208
@@ -704,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_28
+      name: char_v01_28
       rect:
         serializedVersion: 2
         x: 272
@@ -725,7 +725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_29
+      name: char_v01_29
       rect:
         serializedVersion: 2
         x: 336
@@ -746,7 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_30
+      name: char_v01_30
       rect:
         serializedVersion: 2
         x: 400
@@ -767,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_31
+      name: char_v01_31
       rect:
         serializedVersion: 2
         x: 464
@@ -788,7 +788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_32
+      name: char_walk_cycle_down_01
       rect:
         serializedVersion: 2
         x: 16
@@ -809,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_33
+      name: char_walk_cycle_down_02
       rect:
         serializedVersion: 2
         x: 80
@@ -830,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_34
+      name: char_walk_cycle_down_03
       rect:
         serializedVersion: 2
         x: 144
@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_35
+      name: char_walk_cycle_down_04
       rect:
         serializedVersion: 2
         x: 208
@@ -872,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_36
+      name: char_walk_cycle_down_05
       rect:
         serializedVersion: 2
         x: 272
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_37
+      name: char_walk_cycle_down_06
       rect:
         serializedVersion: 2
         x: 336
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_38
+      name: char_walk_cycle_down_07
       rect:
         serializedVersion: 2
         x: 400
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_39
+      name: char_walk_cycle_down_08
       rect:
         serializedVersion: 2
         x: 464
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_40
+      name: char_walk_cycle_up_01
       rect:
         serializedVersion: 2
         x: 16
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_41
+      name: char_walk_cycle_up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -998,7 +998,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_42
+      name: char_walk_cycle_up_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1019,7 +1019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_43
+      name: char_walk_cycle_up_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1040,7 +1040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_44
+      name: char_walk_cycle_up_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_45
+      name: char_walk_cycle_up_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1082,7 +1082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_46
+      name: char_walk_cycle_up_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_47
+      name: char_walk_cycle_up_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1124,7 +1124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_48
+      name: char_walk_cycle_right_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1145,7 +1145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_49
+      name: char_walk_cycle_right_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_50
+      name: char_walk_cycle_right_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1187,7 +1187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_51
+      name: char_walk_cycle_right_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1208,7 +1208,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_52
+      name: char_walk_cycle_right_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1229,7 +1229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_53
+      name: char_walk_cycle_right_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1250,7 +1250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_54
+      name: char_walk_cycle_right_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1271,7 +1271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_55
+      name: char_walk_cycle_right_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1292,7 +1292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_56
+      name: char_walk_cycle_left_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1313,7 +1313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_57
+      name: char_walk_cycle_left_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1334,7 +1334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_58
+      name: char_walk_cycle_left_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1355,7 +1355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_59
+      name: char_walk_cycle_left_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1376,7 +1376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_60
+      name: char_walk_cycle_left_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1397,7 +1397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_61
+      name: char_walk_cycle_left_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1418,7 +1418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_62
+      name: char_walk_cycle_left_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1439,7 +1439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_1out_pfpn_v04_63
+      name: char_walk_cycle_left_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1470,70 +1470,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_1out_pfpn_v04_7: -1709801588
-      char_a_p1_1out_pfpn_v04_38: 1053345605
-      char_a_p1_1out_pfpn_v04_29: 177277558
-      char_a_p1_1out_pfpn_v04_49: -760389074
-      char_a_p1_1out_pfpn_v04_50: 1916289468
-      char_a_p1_1out_pfpn_v04_11: 1269363598
-      char_a_p1_1out_pfpn_v04_19: 1317936334
-      char_a_p1_1out_pfpn_v04_32: -372028945
-      char_a_p1_1out_pfpn_v04_24: -641622648
-      char_a_p1_1out_pfpn_v04_33: -1109006045
-      char_a_p1_1out_pfpn_v04_31: 200213281
-      char_a_p1_1out_pfpn_v04_5: 1412825735
-      char_a_p1_1out_pfpn_v04_10: 79341884
-      char_a_p1_1out_pfpn_v04_4: -1443633886
-      char_a_p1_1out_pfpn_v04_13: -1805677393
-      char_a_p1_1out_pfpn_v04_45: -987778525
-      char_a_p1_1out_pfpn_v04_2: 2128052621
-      char_a_p1_1out_pfpn_v04_62: 132635063
-      char_a_p1_1out_pfpn_v04_3: 1049235627
-      char_a_p1_1out_pfpn_v04_15: -748931928
-      char_a_p1_1out_pfpn_v04_42: -2017384066
-      char_a_p1_1out_pfpn_v04_14: 1898871527
-      char_a_p1_1out_pfpn_v04_41: 950374804
-      char_a_p1_1out_pfpn_v04_28: 1064900480
-      char_a_p1_1out_pfpn_v04_9: -227694807
-      char_a_p1_1out_pfpn_v04_17: 189356360
-      char_a_p1_1out_pfpn_v04_44: -658443299
-      char_a_p1_1out_pfpn_v04_46: 936640428
-      char_a_p1_1out_pfpn_v04_55: -494075993
-      char_a_p1_1out_pfpn_v04_48: 348013761
-      char_a_p1_1out_pfpn_v04_51: -2001678133
-      char_a_p1_1out_pfpn_v04_40: -1264632884
-      char_a_p1_1out_pfpn_v04_30: -1346679403
-      char_a_p1_1out_pfpn_v04_56: -210989586
-      char_a_p1_1out_pfpn_v04_18: 133245430
-      char_a_p1_1out_pfpn_v04_58: -2102532853
-      char_a_p1_1out_pfpn_v04_0: 772148060
-      char_a_p1_1out_pfpn_v04_23: 304586643
-      char_a_p1_1out_pfpn_v04_47: 1386269020
-      char_a_p1_1out_pfpn_v04_16: -1514228077
-      char_a_p1_1out_pfpn_v04_57: 1442248035
-      char_a_p1_1out_pfpn_v04_34: 1268294098
-      char_a_p1_1out_pfpn_v04_52: 1344669197
-      char_a_p1_1out_pfpn_v04_53: -1994704572
-      char_a_p1_1out_pfpn_v04_60: 207647308
-      char_a_p1_1out_pfpn_v04_8: 643754819
-      char_a_p1_1out_pfpn_v04_20: -159796114
-      char_a_p1_1out_pfpn_v04_54: -1676038628
-      char_a_p1_1out_pfpn_v04_6: 1309652608
-      char_a_p1_1out_pfpn_v04_22: 1912835049
-      char_a_p1_1out_pfpn_v04_1: -674586723
-      char_a_p1_1out_pfpn_v04_35: 1948561854
-      char_a_p1_1out_pfpn_v04_59: 1827663863
-      char_a_p1_1out_pfpn_v04_61: 1642776515
-      char_a_p1_1out_pfpn_v04_37: 554707183
-      char_a_p1_1out_pfpn_v04_63: 1796688930
-      char_a_p1_1out_pfpn_v04_21: 1431297981
-      char_a_p1_1out_pfpn_v04_12: 2001573002
-      char_a_p1_1out_pfpn_v04_26: 134749833
-      char_a_p1_1out_pfpn_v04_27: -1695475814
-      char_a_p1_1out_pfpn_v04_43: 1211862076
-      char_a_p1_1out_pfpn_v04_39: -972322440
-      char_a_p1_1out_pfpn_v04_36: 1855457551
-      char_a_p1_1out_pfpn_v04_25: 891541340
+      char_v01_7: -1709801588
+      char_walk_cycle_down_07: 1053345605
+      char_v01_29: 177277558
+      char_walk_cycle_right_02: -760389074
+      char_walk_cycle_right_03: 1916289468
+      char_v01_11: 1269363598
+      char_v01_19: 1317936334
+      char_walk_cycle_down_01: -372028945
+      char_standing_left: -641622648
+      char_walk_cycle_down_02: -1109006045
+      char_v01_31: 200213281
+      char_v01_5: 1412825735
+      char_v01_10: 79341884
+      char_v01_4: -1443633886
+      char_v01_13: -1805677393
+      char_walk_cycle_up_06: -987778525
+      char_v01_2: 2128052621
+      char_walk_cycle_left_07: 132635063
+      char_v01_3: 1049235627
+      char_v01_15: -748931928
+      char_walk_cycle_up_03: -2017384066
+      char_v01_14: 1898871527
+      char_walk_cycle_up_02: 950374804
+      char_v01_28: 1064900480
+      char_v01_9: -227694807
+      char_v01_17: 189356360
+      char_walk_cycle_up_05: -658443299
+      char_walk_cycle_up_07: 936640428
+      char_walk_cycle_right_08: -494075993
+      char_walk_cycle_right_01: 348013761
+      char_walk_cycle_right_04: -2001678133
+      char_walk_cycle_up_01: -1264632884
+      char_v01_30: -1346679403
+      char_walk_cycle_left_01: -210989586
+      char_v01_18: 133245430
+      char_walk_cycle_left_03: -2102532853
+      char_standing_down: 772148060
+      char_v01_23: 304586643
+      char_walk_cycle_up_08: 1386269020
+      char_standing_right: -1514228077
+      char_walk_cycle_left_02: 1442248035
+      char_walk_cycle_down_03: 1268294098
+      char_walk_cycle_right_05: 1344669197
+      char_walk_cycle_right_06: -1994704572
+      char_walk_cycle_left_05: 207647308
+      char_standing_up: 643754819
+      char_v01_20: -159796114
+      char_walk_cycle_right_07: -1676038628
+      char_v01_6: 1309652608
+      char_v01_22: 1912835049
+      char_v01_1: -674586723
+      char_walk_cycle_down_04: 1948561854
+      char_walk_cycle_left_04: 1827663863
+      char_walk_cycle_left_06: 1642776515
+      char_walk_cycle_down_06: 554707183
+      char_walk_cycle_left_08: 1796688930
+      char_v01_21: 1431297981
+      char_v01_12: 2001573002
+      char_v01_26: 134749833
+      char_v01_27: -1695475814
+      char_walk_cycle_up_04: 1211862076
+      char_walk_cycle_down_08: -972322440
+      char_walk_cycle_down_05: 1855457551
+      char_v01_25: 891541340
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

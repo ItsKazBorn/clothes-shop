@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_0
+      name: char_standing_down
       rect:
         serializedVersion: 2
         x: 16
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_1
+      name: char_v01_1
       rect:
         serializedVersion: 2
         x: 80
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_2
+      name: char_v01_2
       rect:
         serializedVersion: 2
         x: 144
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_3
+      name: char_v01_3
       rect:
         serializedVersion: 2
         x: 208
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_4
+      name: char_v01_4
       rect:
         serializedVersion: 2
         x: 272
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_5
+      name: char_v01_5
       rect:
         serializedVersion: 2
         x: 336
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_6
+      name: char_v01_6
       rect:
         serializedVersion: 2
         x: 400
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_7
+      name: char_v01_7
       rect:
         serializedVersion: 2
         x: 464
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_8
+      name: char_standing_up
       rect:
         serializedVersion: 2
         x: 16
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_9
+      name: char_v01_9
       rect:
         serializedVersion: 2
         x: 80
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_10
+      name: char_v01_10
       rect:
         serializedVersion: 2
         x: 144
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_11
+      name: char_v01_11
       rect:
         serializedVersion: 2
         x: 208
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_12
+      name: char_v01_12
       rect:
         serializedVersion: 2
         x: 272
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_13
+      name: char_v01_13
       rect:
         serializedVersion: 2
         x: 336
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_14
+      name: char_v01_14
       rect:
         serializedVersion: 2
         x: 400
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_15
+      name: char_v01_15
       rect:
         serializedVersion: 2
         x: 464
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_16
+      name: char_standing_right
       rect:
         serializedVersion: 2
         x: 16
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_17
+      name: char_v01_17
       rect:
         serializedVersion: 2
         x: 80
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_18
+      name: char_v01_18
       rect:
         serializedVersion: 2
         x: 144
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_19
+      name: char_v01_19
       rect:
         serializedVersion: 2
         x: 208
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_20
+      name: char_v01_20
       rect:
         serializedVersion: 2
         x: 272
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_21
+      name: char_v01_21
       rect:
         serializedVersion: 2
         x: 336
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_22
+      name: char_v01_22
       rect:
         serializedVersion: 2
         x: 400
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_23
+      name: char_v01_23
       rect:
         serializedVersion: 2
         x: 464
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_24
+      name: char_standing_left
       rect:
         serializedVersion: 2
         x: 16
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_25
+      name: char_v01_25
       rect:
         serializedVersion: 2
         x: 80
@@ -662,7 +662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_26
+      name: char_v01_26
       rect:
         serializedVersion: 2
         x: 144
@@ -683,7 +683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_27
+      name: char_v01_27
       rect:
         serializedVersion: 2
         x: 208
@@ -704,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_28
+      name: char_v01_28
       rect:
         serializedVersion: 2
         x: 272
@@ -725,7 +725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_29
+      name: char_v01_29
       rect:
         serializedVersion: 2
         x: 336
@@ -746,7 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_30
+      name: char_v01_30
       rect:
         serializedVersion: 2
         x: 400
@@ -767,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_31
+      name: char_v01_31
       rect:
         serializedVersion: 2
         x: 464
@@ -788,7 +788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_32
+      name: char_walk_cycle_down_01
       rect:
         serializedVersion: 2
         x: 16
@@ -809,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_33
+      name: char_walk_cycle_down_02
       rect:
         serializedVersion: 2
         x: 80
@@ -830,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_34
+      name: char_walk_cycle_down_03
       rect:
         serializedVersion: 2
         x: 144
@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_35
+      name: char_walk_cycle_down_04
       rect:
         serializedVersion: 2
         x: 208
@@ -872,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_36
+      name: char_walk_cycle_down_05
       rect:
         serializedVersion: 2
         x: 272
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_37
+      name: char_walk_cycle_down_06
       rect:
         serializedVersion: 2
         x: 336
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_38
+      name: char_walk_cycle_down_07
       rect:
         serializedVersion: 2
         x: 400
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_39
+      name: char_walk_cycle_down_08
       rect:
         serializedVersion: 2
         x: 464
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_40
+      name: char_walk_cycle_up_01
       rect:
         serializedVersion: 2
         x: 16
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_41
+      name: char_walk_cycle_up_02
       rect:
         serializedVersion: 2
         x: 80
@@ -998,7 +998,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_42
+      name: char_walk_cycle_up_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1019,7 +1019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_43
+      name: char_walk_cycle_up_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1040,7 +1040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_44
+      name: char_walk_cycle_up_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_45
+      name: char_walk_cycle_up_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1082,7 +1082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_46
+      name: char_walk_cycle_up_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_47
+      name: char_walk_cycle_up_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1124,7 +1124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_48
+      name: char_walk_cycle_right_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1145,7 +1145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_49
+      name: char_walk_cycle_right_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_50
+      name: char_walk_cycle_right_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1187,7 +1187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_51
+      name: char_walk_cycle_right_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1208,7 +1208,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_52
+      name: char_walk_cycle_right_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1229,7 +1229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_53
+      name: char_walk_cycle_right_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1250,7 +1250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_54
+      name: char_walk_cycle_right_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1271,7 +1271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_55
+      name: char_walk_cycle_right_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1292,7 +1292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_56
+      name: char_walk_cycle_left_01
       rect:
         serializedVersion: 2
         x: 16
@@ -1313,7 +1313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_57
+      name: char_walk_cycle_left_02
       rect:
         serializedVersion: 2
         x: 80
@@ -1334,7 +1334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_58
+      name: char_walk_cycle_left_03
       rect:
         serializedVersion: 2
         x: 144
@@ -1355,7 +1355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_59
+      name: char_walk_cycle_left_04
       rect:
         serializedVersion: 2
         x: 208
@@ -1376,7 +1376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_60
+      name: char_walk_cycle_left_05
       rect:
         serializedVersion: 2
         x: 272
@@ -1397,7 +1397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_61
+      name: char_walk_cycle_left_06
       rect:
         serializedVersion: 2
         x: 336
@@ -1418,7 +1418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_62
+      name: char_walk_cycle_left_07
       rect:
         serializedVersion: 2
         x: 400
@@ -1439,7 +1439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: char_a_p1_0bas_humn_v01_63
+      name: char_walk_cycle_left_08
       rect:
         serializedVersion: 2
         x: 464
@@ -1470,70 +1470,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_0bas_humn_v01_31: 1105484147
-      char_a_p1_0bas_humn_v01_1: -818528373
-      char_a_p1_0bas_humn_v01_20: 1814820878
-      char_a_p1_0bas_humn_v01_54: 277241783
-      char_a_p1_0bas_humn_v01_51: -2133437919
-      char_a_p1_0bas_humn_v01_25: 1000799476
-      char_a_p1_0bas_humn_v01_53: 1563452026
-      char_a_p1_0bas_humn_v01_9: -1242231758
-      char_a_p1_0bas_humn_v01_37: -1620510462
-      char_a_p1_0bas_humn_v01_34: -103097668
-      char_a_p1_0bas_humn_v01_36: -703420767
-      char_a_p1_0bas_humn_v01_6: -613969822
-      char_a_p1_0bas_humn_v01_62: -1992035574
-      char_a_p1_0bas_humn_v01_4: -83020085
-      char_a_p1_0bas_humn_v01_42: 434784233
-      char_a_p1_0bas_humn_v01_55: -2110601672
-      char_a_p1_0bas_humn_v01_38: 853259953
-      char_a_p1_0bas_humn_v01_11: -936644801
-      char_a_p1_0bas_humn_v01_23: 434149554
-      char_a_p1_0bas_humn_v01_26: -302348340
-      char_a_p1_0bas_humn_v01_33: -613872115
-      char_a_p1_0bas_humn_v01_14: 530525187
-      char_a_p1_0bas_humn_v01_56: 1883484357
-      char_a_p1_0bas_humn_v01_32: 879912363
-      char_a_p1_0bas_humn_v01_22: -1091750341
-      char_a_p1_0bas_humn_v01_61: 1043745664
-      char_a_p1_0bas_humn_v01_47: 1423526353
-      char_a_p1_0bas_humn_v01_45: -356101655
-      char_a_p1_0bas_humn_v01_15: -1551501831
-      char_a_p1_0bas_humn_v01_63: -1149392254
-      char_a_p1_0bas_humn_v01_3: -1751165935
-      char_a_p1_0bas_humn_v01_57: 1479704489
-      char_a_p1_0bas_humn_v01_8: 1668788804
-      char_a_p1_0bas_humn_v01_5: 880129577
-      char_a_p1_0bas_humn_v01_2: 395030096
-      char_a_p1_0bas_humn_v01_39: -2010098205
-      char_a_p1_0bas_humn_v01_12: 1686952508
-      char_a_p1_0bas_humn_v01_16: -2118788055
-      char_a_p1_0bas_humn_v01_30: 750259449
-      char_a_p1_0bas_humn_v01_52: 836339522
-      char_a_p1_0bas_humn_v01_41: 758027418
-      char_a_p1_0bas_humn_v01_10: -590259639
-      char_a_p1_0bas_humn_v01_18: -1454470881
-      char_a_p1_0bas_humn_v01_49: 1405838477
-      char_a_p1_0bas_humn_v01_40: -487137724
-      char_a_p1_0bas_humn_v01_19: 2137915538
-      char_a_p1_0bas_humn_v01_60: -2130913748
-      char_a_p1_0bas_humn_v01_59: 772030379
-      char_a_p1_0bas_humn_v01_0: -1990997862
-      char_a_p1_0bas_humn_v01_29: -1880074028
-      char_a_p1_0bas_humn_v01_50: 1995623080
-      char_a_p1_0bas_humn_v01_58: 465771140
-      char_a_p1_0bas_humn_v01_27: 716946236
-      char_a_p1_0bas_humn_v01_44: 993695502
-      char_a_p1_0bas_humn_v01_24: 1150646352
-      char_a_p1_0bas_humn_v01_7: 33592073
-      char_a_p1_0bas_humn_v01_17: 1793578870
-      char_a_p1_0bas_humn_v01_35: 904358692
-      char_a_p1_0bas_humn_v01_13: 1981904185
-      char_a_p1_0bas_humn_v01_21: 993606107
-      char_a_p1_0bas_humn_v01_28: -1027168874
-      char_a_p1_0bas_humn_v01_48: -1129209324
-      char_a_p1_0bas_humn_v01_43: -1676224910
-      char_a_p1_0bas_humn_v01_46: 466843528
+      char_walk_cycle_right_03: 1995623080
+      char_walk_cycle_up_05: 993695502
+      char_walk_cycle_down_01: 879912363
+      char_v01_31: 1105484147
+      char_v01_1: -818528373
+      char_v01_20: 1814820878
+      char_walk_cycle_right_07: 277241783
+      char_walk_cycle_down_04: 904358692
+      char_walk_cycle_right_02: 1405838477
+      char_v01_25: 1000799476
+      char_walk_cycle_right_06: 1563452026
+      char_standing_right: -2118788055
+      char_v01_9: -1242231758
+      char_standing_left: 1150646352
+      char_walk_cycle_down_05: -703420767
+      char_walk_cycle_left_07: -1992035574
+      char_v01_6: -613969822
+      char_v01_4: -83020085
+      char_walk_cycle_right_01: -1129209324
+      char_walk_cycle_down_06: -1620510462
+      char_walk_cycle_down_07: 853259953
+      char_walk_cycle_right_08: -2110601672
+      char_walk_cycle_up_06: -356101655
+      char_v01_11: -936644801
+      char_walk_cycle_right_04: -2133437919
+      char_v01_23: 434149554
+      char_walk_cycle_up_08: 1423526353
+      char_v01_26: -302348340
+      char_walk_cycle_up_03: 434784233
+      char_v01_14: 530525187
+      char_walk_cycle_left_01: 1883484357
+      char_v01_22: -1091750341
+      char_standing_up: 1668788804
+      char_walk_cycle_left_06: 1043745664
+      char_walk_cycle_down_03: -103097668
+      char_walk_cycle_up_07: 466843528
+      char_standing_down: -1990997862
+      char_v01_15: -1551501831
+      char_walk_cycle_left_08: -1149392254
+      char_v01_3: -1751165935
+      char_walk_cycle_left_02: 1479704489
+      char_walk_cycle_up_01: -487137724
+      char_walk_cycle_down_02: -613872115
+      char_v01_5: 880129577
+      char_v01_2: 395030096
+      char_v01_12: 1686952508
+      char_walk_cycle_up_04: -1676224910
+      char_v01_30: 750259449
+      char_v01_10: -590259639
+      char_walk_cycle_right_05: 836339522
+      char_walk_cycle_up_02: 758027418
+      char_v01_18: -1454470881
+      char_walk_cycle_left_04: 772030379
+      char_v01_19: 2137915538
+      char_walk_cycle_left_05: -2130913748
+      char_v01_29: -1880074028
+      char_walk_cycle_left_03: 465771140
+      char_walk_cycle_down_08: -2010098205
+      char_v01_27: 716946236
+      char_v01_7: 33592073
+      char_v01_17: 1793578870
+      char_v01_13: 1981904185
+      char_v01_21: 993606107
+      char_v01_28: -1027168874
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
