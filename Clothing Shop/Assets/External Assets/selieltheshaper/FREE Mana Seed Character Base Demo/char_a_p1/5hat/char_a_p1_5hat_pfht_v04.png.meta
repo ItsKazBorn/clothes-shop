@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,11 +43,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1493,14 +1493,14 @@ TextureImporter:
       char_a_p1_5hat_pfht_v04_37: 289130833
       char_a_p1_5hat_pfht_v04_19: 189849748
       char_a_p1_5hat_pfht_v04_57: 1589050533
-      char_a_p1_5hat_pfht_v04_25: 1363311405
-      char_a_p1_5hat_pfht_v04_18: 1702402961
-      char_a_p1_5hat_pfht_v04_41: -1894546445
-      char_a_p1_5hat_pfht_v04_3: -1109428469
-      char_a_p1_5hat_pfht_v04_22: -983796467
-      char_a_p1_5hat_pfht_v04_31: 1573425406
-      char_a_p1_5hat_pfht_v04_38: -717341398
       char_a_p1_5hat_pfht_v04_49: 1221248423
+      char_a_p1_5hat_pfht_v04_25: 1363311405
+      char_a_p1_5hat_pfht_v04_3: -1109428469
+      char_a_p1_5hat_pfht_v04_41: -1894546445
+      char_a_p1_5hat_pfht_v04_18: 1702402961
+      char_a_p1_5hat_pfht_v04_31: 1573425406
+      char_a_p1_5hat_pfht_v04_22: -983796467
+      char_a_p1_5hat_pfht_v04_38: -717341398
       char_a_p1_5hat_pfht_v04_15: 1869895901
       char_a_p1_5hat_pfht_v04_62: 1109970551
       char_a_p1_5hat_pfht_v04_43: 1395208758

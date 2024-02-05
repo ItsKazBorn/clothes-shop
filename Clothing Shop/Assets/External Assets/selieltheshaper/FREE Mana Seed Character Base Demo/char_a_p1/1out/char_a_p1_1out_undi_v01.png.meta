@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,11 +43,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1504,9 +1504,9 @@ TextureImporter:
       char_a_p1_1out_undi_v01_62: 1461258849
       char_a_p1_1out_undi_v01_37: -454212054
       char_a_p1_1out_undi_v01_27: 688030534
-      char_a_p1_1out_undi_v01_29: -1162786236
       char_a_p1_1out_undi_v01_39: 1130503328
       char_a_p1_1out_undi_v01_32: 1143827539
+      char_a_p1_1out_undi_v01_29: -1162786236
       char_a_p1_1out_undi_v01_52: -1865023629
       char_a_p1_1out_undi_v01_5: 2021075482
       char_a_p1_1out_undi_v01_7: -1007908206
