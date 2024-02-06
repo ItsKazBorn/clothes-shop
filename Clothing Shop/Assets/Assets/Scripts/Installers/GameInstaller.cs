@@ -5,14 +5,12 @@ using Zenject;
 public class GameInstaller : MonoInstaller
 {
     
-    
     [Inject] private readonly Settings m_settings;
     
     public override void InstallBindings()
     {
         // Install Interfaces & Instances here
-        Container.BindInterfacesAndSelfTo<CurrencyManager>().AsSingle();
-        
+
         InstallPools();
         InstallSignals();
     }
