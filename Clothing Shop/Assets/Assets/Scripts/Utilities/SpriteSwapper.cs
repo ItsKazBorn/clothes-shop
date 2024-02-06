@@ -1,39 +1,36 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
-public class SpriteSwapper : MonoBehaviour
+public class SpriteSwapper
 {
+    private SpriteSheetManager m_spriteSheetManager;
+    
     private SpriteRenderer m_spriteRenderer;
     private string m_spriteSheetName;
     private string m_loadedSpriteSheetName;
     private Dictionary<string, Sprite> m_spriteSheet;
 
-    private void Start()
+    public SpriteSwapper(SpriteRenderer spriteRenderer, SpriteSheetManager spriteSheetManager)
     {
+        m_spriteSheetManager = spriteSheetManager;
+        m_spriteRenderer = spriteRenderer;
         m_spriteSheet = new Dictionary<string, Sprite>();
     }
 
-    public void Setup(SpriteRenderer spriteRenderer)
-    {
-        m_spriteRenderer = spriteRenderer;
-    }
-
-    private void LateUpdate()
+    public void LateUpdate()
     {
         if (string.IsNullOrEmpty(m_spriteSheetName)) return;
         
-        // Check if the sprite sheet name has changed (possibly manually in the inspector)
         if (m_loadedSpriteSheetName != m_spriteSheetName)
         {
-            // Load the new sprite sheet
             LoadSpriteSheet();
         }
 
-        // Swap out the sprite to be rendered by its name
         // Important: The name of the sprite must be the same!
-        m_spriteRenderer.sprite = m_spriteSheet[m_spriteRenderer.sprite.name];
+        if (m_spriteRenderer.sprite != m_spriteSheet[m_spriteRenderer.sprite.name])
+        {
+            m_spriteRenderer.sprite = m_spriteSheet[m_spriteRenderer.sprite.name];
+        }
     }
     
     // Loads the sprites from a sprite sheet
@@ -41,12 +38,10 @@ public class SpriteSwapper : MonoBehaviour
     {
         if (string.IsNullOrEmpty(m_spriteSheetName)) return;
         
-        // Load the sprites from a sprite sheet file (png). 
-        // Note: The file specified must exist in a folder named Resources
-        var sprites = Resources.LoadAll<Sprite>(m_spriteSheetName);
-        m_spriteSheet.Clear();
-        m_spriteSheet = sprites.ToDictionary(x => x.name, x => x);
-
+        Dictionary<string, Sprite> newSheet = m_spriteSheetManager.GetSpriteSheet(m_spriteSheetName);
+        if (newSheet == null) return;
+        m_spriteSheet = newSheet;
+        
         // Remember the name of the sprite sheet in case it is changed later
         m_loadedSpriteSheetName = m_spriteSheetName;
     }

@@ -10,6 +10,7 @@ public class GameInstaller : MonoInstaller
     public override void InstallBindings()
     {
         // Install Interfaces & Instances here
+        Container.BindInterfacesAndSelfTo<SpriteSheetManager>().AsSingle();
 
         InstallPools();
         InstallSignals();
@@ -39,6 +40,8 @@ public class GameInstaller : MonoInstaller
     {
         // Prefabs Here
         public GameObject CharacterPrefab;
+        public GameObject PlayerPrefab;
+        public GameObject ShopkeeperPrefab;
     }
 
     
