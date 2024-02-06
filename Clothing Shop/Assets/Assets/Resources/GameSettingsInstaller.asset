@@ -16,13 +16,10 @@ MonoBehaviour:
     CharacterPrefab: {fileID: 3203632938540109298, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
     PlayerPrefab: {fileID: 2556021923498647436, guid: 45b585ca3b1879f438bb41612a7c816a, type: 3}
     ShopkeeperPrefab: {fileID: 5667384660009782569, guid: e197a59cdff82b5469f87adec1389b84, type: 3}
-  CurrencyManager:
-    StartMoney: 100
   SpriteSheetManager:
-    SpriteSheetFolder: CharSpriteSheet/
     CharSpriteSheetCodes:
-    - Code: 
-      Pages: 0
+    - Code: a
+      Pages: 1
       CharLayers:
       - Code: bas
         Sorting: 0

@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class PlayerInputs : MonoBehaviour
 {
     [SerializeField] private CharacterMovement m_characterMovement;
+    [SerializeField] private Interactor m_interactor;
 
     private void OnRun(InputValue value)
     {
@@ -19,6 +20,6 @@ public class PlayerInputs : MonoBehaviour
 
     private void OnInteract(InputValue value)
     {
-        Debug.Log("Interacting...");
+        m_interactor.Interact();
     }
 }

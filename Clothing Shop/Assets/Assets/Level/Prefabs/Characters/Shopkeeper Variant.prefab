@@ -10,26 +10,22 @@ PrefabInstance:
     - target: {fileID: 150818781535021912, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -120836629, guid: 85bb69c399e83bd4c8ca3eb92db5fc7d, type: 3}
     - target: {fileID: 150818781535021912, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 667711921478502808, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_baseSpriteSheetName
       value: char_a_p1_4har_bob1_v01
       objectReference: {fileID: 0}
-    - target: {fileID: 1399286352742876039, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1399286352742876039, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
+    - target: {fileID: 874037540763551368, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
+      propertyPath: m_Mass
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 3203632938540109298, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_Name
-      value: Shopkeeper
+      value: Shopkeeper Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3356185055621299379, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_RootOrder
@@ -78,10 +74,10 @@ PrefabInstance:
     - target: {fileID: 8234142689222291006, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 772148060, guid: ed78e3ed044cecf4a97f4bb9697f4e9b, type: 3}
     - target: {fileID: 8234142689222291006, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8725281947034995966, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_baseSpriteSheetName
@@ -89,3 +85,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
+--- !u!1 &5667384660009782569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3203632938540109298, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
+  m_PrefabInstance: {fileID: 7121052465969823963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5201132407177613872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667384660009782569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee587ecab6b6deb45b7a557cffb06be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_prompt: Open Shop
