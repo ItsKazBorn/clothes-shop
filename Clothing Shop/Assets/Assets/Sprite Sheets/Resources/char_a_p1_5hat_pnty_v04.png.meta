@@ -1470,70 +1470,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_walk_cycle_right_03: 504816325
-      char_v01_25: -2117850750
-      char_standing_left: -1306884110
-      char_v01_30: -1503946989
-      char_walk_cycle_up_07: 159730633
-      char_walk_cycle_left_01: 1605447269
-      char_v01_2: -1402123405
-      char_walk_cycle_down_04: 1725826287
-      char_standing_right: -702804801
-      char_v01_20: -1336224155
-      char_walk_cycle_down_01: 1912619613
-      char_v01_1: 1503989277
-      char_walk_cycle_up_05: 1986389024
       char_walk_cycle_up_01: -1772359360
-      char_v01_21: -939587110
-      char_walk_cycle_down_03: 507425261
-      char_walk_cycle_right_08: 1458254879
+      char_v01_20: -1336224155
       char_walk_cycle_up_08: -565052162
-      char_v01_28: 1035293350
-      char_v01_17: 1583950943
-      char_v01_23: 1401956270
-      char_walk_cycle_left_03: 1330210452
-      char_walk_cycle_left_07: 467097093
       char_standing_down: -1098875334
-      char_walk_cycle_left_05: -2120661212
-      char_v01_13: 1284789194
-      char_v01_14: 429008577
-      char_v01_27: 214775109
-      char_walk_cycle_down_08: -728514081
-      char_v01_3: 2020699932
-      char_v01_7: -230086008
-      char_v01_11: -172199579
-      char_v01_29: -541051760
-      char_v01_9: -52089404
-      char_walk_cycle_left_04: -233017661
-      char_walk_cycle_right_06: -2056306918
-      char_v01_12: -986136737
-      char_walk_cycle_up_02: -690213323
-      char_walk_cycle_up_03: 754341168
-      char_walk_cycle_left_08: -255459314
-      char_walk_cycle_down_05: 960250576
-      char_walk_cycle_down_02: 1230569648
-      char_walk_cycle_left_06: 632719965
-      char_v01_15: 883341661
-      char_walk_cycle_right_05: 567098469
-      char_v01_4: -1549181002
+      char_walk_cycle_right_02: 911820197
+      char_v01_1: 1503989277
       char_v01_5: -428135404
-      char_v01_6: -852310094
-      char_walk_cycle_down_06: 972680202
-      char_v01_22: -495100198
+      char_walk_cycle_left_05: -2120661212
+      char_walk_cycle_right_06: -2056306918
+      char_walk_cycle_down_01: 1912619613
+      char_v01_7: -230086008
+      char_walk_cycle_up_02: -690213323
+      char_v01_29: -541051760
       char_standing_up: 68203399
       char_v01_19: 783746313
-      char_walk_cycle_right_02: 911820197
-      char_walk_cycle_up_04: 446006907
-      char_v01_31: 1607322653
-      char_v01_18: -1624970628
-      char_walk_cycle_right_07: 437233586
-      char_walk_cycle_down_07: -1081947821
+      char_walk_cycle_up_03: 754341168
+      char_walk_cycle_left_07: 467097093
       char_v01_26: 2006475617
-      char_walk_cycle_right_04: -1234843608
-      char_walk_cycle_up_06: 2021962689
+      char_walk_cycle_right_05: 567098469
+      char_walk_cycle_up_04: 446006907
+      char_v01_3: 2020699932
+      char_walk_cycle_down_05: 960250576
+      char_standing_left: -1306884110
+      char_walk_cycle_up_05: 1986389024
+      char_walk_cycle_right_08: 1458254879
+      char_v01_28: 1035293350
+      char_walk_cycle_left_03: 1330210452
+      char_v01_13: 1284789194
+      char_walk_cycle_down_06: 972680202
+      char_standing_right: -702804801
+      char_v01_2: -1402123405
+      char_walk_cycle_left_04: -233017661
+      char_v01_23: 1401956270
+      char_v01_17: 1583950943
+      char_v01_18: -1624970628
+      char_v01_27: 214775109
       char_v01_10: 1873836343
-      char_walk_cycle_left_02: 840395986
+      char_v01_11: -172199579
+      char_walk_cycle_up_06: 2021962689
+      char_walk_cycle_down_03: 507425261
+      char_v01_4: -1549181002
       char_walk_cycle_right_01: 69037520
+      char_v01_25: -2117850750
+      char_walk_cycle_left_06: 632719965
+      char_v01_14: 429008577
+      char_v01_15: 883341661
+      char_walk_cycle_down_02: 1230569648
+      char_walk_cycle_right_03: 504816325
+      char_walk_cycle_left_08: -255459314
+      char_walk_cycle_left_01: 1605447269
+      char_v01_6: -852310094
+      char_walk_cycle_left_02: 840395986
+      char_v01_12: -986136737
+      char_v01_21: -939587110
+      char_v01_9: -52089404
+      char_v01_22: -495100198
+      char_walk_cycle_right_04: -1234843608
+      char_v01_31: 1607322653
+      char_v01_30: -1503946989
+      char_walk_cycle_down_04: 1725826287
+      char_walk_cycle_right_07: 437233586
+      char_walk_cycle_up_07: 159730633
+      char_walk_cycle_down_07: -1081947821
+      char_walk_cycle_down_08: -728514081
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

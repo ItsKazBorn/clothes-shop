@@ -6,7 +6,6 @@ public class GameInstaller : MonoInstaller
 {
     
     
-    
     [Inject] private readonly Settings m_settings;
     
     public override void InstallBindings()
@@ -37,12 +36,12 @@ public class GameInstaller : MonoInstaller
         
     }
     
-    
-
     [Serializable]
     public class Settings
     {
         // Prefabs Here
-        
+        public GameObject CharacterPrefab;
     }
+
+    
 }
