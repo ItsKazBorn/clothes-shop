@@ -4,6 +4,7 @@ using Zenject;
 
 public class GameInstaller : MonoInstaller
 {
+    [SerializeField] private Camera m_mainCamera;
     
     [Inject] private readonly Settings m_settings;
     
@@ -12,6 +13,8 @@ public class GameInstaller : MonoInstaller
         // Install Interfaces & Instances here
         Container.BindInterfacesAndSelfTo<SpriteSheetManager>().AsSingle();
 
+        Container.BindInstance(m_mainCamera).AsSingle();
+        
         InstallPools();
         InstallSignals();
     }

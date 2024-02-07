@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Interactor : MonoBehaviour
@@ -9,23 +10,22 @@ public class Interactor : MonoBehaviour
     [SerializeField] private float m_interactionRadius = 0.5f;
     [SerializeField] private LayerMask m_interactableMask;
 
+    private IInteractible m_interactible;
     private readonly Collider2D[] m_colliders = new Collider2D[3];
-    [SerializeField] private int m_numFound;
+    private int m_numFound;
 
     public void Interact()
     {
         m_numFound = Physics2D.OverlapCircleNonAlloc(m_interactionPoint.position, m_interactionRadius, m_colliders,
             m_interactableMask);
         
-        
         if (m_numFound > 0)
         {
-            IInteractible interactible;
-            bool isInteractible = m_colliders[0].TryGetComponent<IInteractible>(out interactible);
+            bool isInteractible = m_colliders[0].TryGetComponent(out m_interactible);
             
             if (isInteractible)
             {
-                interactible.Interact(this);
+                m_interactible.Interact(this);
             }
         }
     }

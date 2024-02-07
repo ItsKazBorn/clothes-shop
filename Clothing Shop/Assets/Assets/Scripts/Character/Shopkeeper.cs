@@ -1,3 +1,5 @@
+using System;
+using TMPro;
 using UnityEngine;
 
 public class Shopkeeper : MonoBehaviour, IInteractible
@@ -11,4 +13,5 @@ public class Shopkeeper : MonoBehaviour, IInteractible
         Debug.Log("Opening Shop");
         return true;
     }
+
 }
