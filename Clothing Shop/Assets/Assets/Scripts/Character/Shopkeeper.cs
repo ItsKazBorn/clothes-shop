@@ -5,6 +5,7 @@ using Zenject;
 public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
 {
     [Inject] private SignalBus m_signalBus;
+    [Inject] private GameItemManager m_itemManager;
     
     [SerializeField] private string m_prompt;
 
@@ -15,12 +16,22 @@ public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
     {
         m_signalBus.Subscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Subscribe<OnGameItemSoldSignal>(SoldItem);
+        
+        GetAllItems();
     }
     
     public void OnDestroy()
     {
         m_signalBus.Unsubscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Unsubscribe<OnGameItemSoldSignal>(SoldItem);
+    }
+
+    private void GetAllItems()
+    {
+        foreach (KeyValuePair<int, GameItem> kvp in m_itemManager.GameItems)
+        {
+            AddItem(kvp.Value);
+        }
     }
     
     private void BoughtItem(OnGameItemPurchasedSignal args)

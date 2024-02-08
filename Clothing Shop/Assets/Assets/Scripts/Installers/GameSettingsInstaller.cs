@@ -6,12 +6,14 @@ public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInsta
 {
     public GameInstaller.Settings GameInstaller;
     public SpriteSheetManager.Settings SpriteSheetManager;
+    public GameItemManager.Settings GameItemManager;
     
     public override void InstallBindings()
     {
         // Bind Instances here
         Container.BindInstance(GameInstaller);
+        Container.BindInstance(GameItemManager);
         Container.BindInstance(SpriteSheetManager);
-
+        
     }
 }

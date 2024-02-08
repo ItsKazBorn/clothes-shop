@@ -1,6 +1,5 @@
 
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public enum ItemSlot
@@ -21,6 +20,7 @@ public class GameItem
     private string m_code;
     private int m_paperDollLayer;
     private Sprite m_icon;
+    private ItemSlot m_slot;
 
     public string Name => m_name;
     public Sprite Icon => m_icon;
@@ -30,32 +30,17 @@ public class GameItem
     public int PaperDollLayer => m_paperDollLayer;
 
 
-    public GameItem(string name, Sprite icon, int buyValue, int sellValue, string code, int paperDollLayer)
+    public GameItem(string name, int buyValue, int sellValue, string code, ItemSlot slot)
     {
         ItemID = nextId;
         nextId++;
         
         m_name = name;
-        m_icon = icon;
         m_buyValue = buyValue;
         m_sellValue = sellValue;
         m_code = code;
-        m_paperDollLayer = paperDollLayer;
+        m_slot = slot;
     }
 
-    [Serializable]
-    public class GameItemInfo
-    {
-        public string Name;
-        public ItemSlot Slot;
-        public string Code;
-        public int BuyValue;
-        public int SellValue;
-    }
-
-    [Serializable]
-    public class Settings
-    {
-        public GameItemInfo[] ItemInfos;
-    }
+    
 }

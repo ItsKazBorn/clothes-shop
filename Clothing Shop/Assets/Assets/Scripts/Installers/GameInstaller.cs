@@ -14,6 +14,7 @@ public class GameInstaller : MonoInstaller
         Container.BindInterfacesAndSelfTo<SpriteSheetManager>().AsSingle();
         Container.BindInterfacesAndSelfTo<PlayerInventory>().AsSingle();
         Container.BindInterfacesAndSelfTo<PlayerWallet>().AsSingle();
+        Container.BindInterfacesAndSelfTo<GameItemManager>().AsSingle();
 
         Container.BindInstance(m_mainCamera).AsSingle();
         
@@ -49,8 +50,6 @@ public class GameInstaller : MonoInstaller
         SignalBusInstaller.Install(Container);
         
         // Declare Signals Here
-        Container.DeclareSignal<OnGameStartedSignal>();
-        
         Container.DeclareSignal<OnAddCurrencySignal>();
         Container.DeclareSignal<OnCurrencyAmountChangedSignal>();
         
@@ -73,6 +72,8 @@ public class GameInstaller : MonoInstaller
         public GameObject UIButtonPrefab;
         public GameObject UITabPrefab;
         public GameObject ShopkeeperPrefab;
+        
+        
     }
 
     
