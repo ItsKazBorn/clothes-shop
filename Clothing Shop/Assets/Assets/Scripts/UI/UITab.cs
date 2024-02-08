@@ -21,7 +21,7 @@ public class UITab : UIButton
         m_button.interactable = !active;
     }
 
-    public class Pool : MonoMemoryPool<string, UITab>
+    public class TabPool : MonoMemoryPool<string, UITab>
     {
         protected override void Reinitialize(string text, UITab uiTab)
         {

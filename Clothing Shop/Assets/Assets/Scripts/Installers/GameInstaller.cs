@@ -31,12 +31,12 @@ public class GameInstaller : MonoInstaller
             .WithGameObjectName("UIShopItem");
         
         Container.BindMemoryPool<UIButton, UIButton.Pool>()
-            .WithInitialSize(10)
+            .WithInitialSize(2)
             .FromComponentInNewPrefab(m_settings.UIButtonPrefab)
             .WithGameObjectName("UIButton");
         
-        Container.BindMemoryPool<UITab, UITab.Pool>()
-            .WithInitialSize(10)
+        Container.BindMemoryPool<UITab, UITab.TabPool>()
+            .WithInitialSize(2)
             .FromComponentInNewPrefab(m_settings.UITabPrefab)
             .WithGameObjectName("UITab");
         
