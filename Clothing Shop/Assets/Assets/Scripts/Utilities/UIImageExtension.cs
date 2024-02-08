@@ -22,7 +22,7 @@ public class UIImageExtension : MonoBehaviour, ISpriteHaver
 
     public void SetSpriteEnabled(bool enabled)
     {
-        m_image.enabled = enabled;
+        if (!enabled) m_image.sprite = null;
     }
 
     public bool IsSpriteEnabled()

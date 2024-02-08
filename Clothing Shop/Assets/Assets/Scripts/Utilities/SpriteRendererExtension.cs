@@ -21,7 +21,7 @@ public class SpriteRendererExtension : MonoBehaviour, ISpriteHaver
 
     public void SetSpriteEnabled(bool enabled)
     {
-        m_spriteRenderer.enabled = enabled;
+        if (!enabled) m_spriteRenderer.sprite = null;
     }
 
     public bool IsSpriteEnabled()
