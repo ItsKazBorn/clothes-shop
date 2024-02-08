@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4768275215098968763}
   - component: {fileID: 8611919106421689586}
   - component: {fileID: 5296146983228725371}
+  - component: {fileID: 8816940705124919039}
   m_Layer: 7
   m_Name: Character_Sprite_Layer
   m_TagString: Untagged
@@ -118,6 +119,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00fc4e0a19ef8da4e9a1df2823f036bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_spriteRenderer: {fileID: 4768275215098968763}
+  m_spriteRenderer: {fileID: 8816940705124919039}
   m_animator: {fileID: 8611919106421689586}
   m_baseSpriteSheetName: 
+--- !u!114 &8816940705124919039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501833960085391033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77c1a9e9db73d9479e28f8ad81a4ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_spriteRenderer: {fileID: 4768275215098968763}

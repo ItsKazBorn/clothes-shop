@@ -5,12 +5,12 @@ public class SpriteSwapper
 {
     private SpriteSheetManager m_spriteSheetManager;
     
-    private SpriteRenderer m_spriteRenderer;
+    private ISpriteHaver m_spriteRenderer;
     private string m_spriteSheetName;
     private string m_loadedSpriteSheetName;
     private Dictionary<string, Sprite> m_spriteSheet;
 
-    public SpriteSwapper(SpriteRenderer spriteRenderer, SpriteSheetManager spriteSheetManager)
+    public SpriteSwapper(ISpriteHaver spriteRenderer, SpriteSheetManager spriteSheetManager)
     {
         m_spriteSheetManager = spriteSheetManager;
         m_spriteRenderer = spriteRenderer;
@@ -27,9 +27,9 @@ public class SpriteSwapper
         }
 
         // Important: The name of the sprite must be the same!
-        if (m_spriteRenderer.sprite != m_spriteSheet[m_spriteRenderer.sprite.name])
+        if (m_spriteRenderer.GetSprite() != m_spriteSheet[m_spriteRenderer.GetSpriteName()])
         {
-            m_spriteRenderer.sprite = m_spriteSheet[m_spriteRenderer.sprite.name];
+            m_spriteRenderer.SetSprite(m_spriteSheet[m_spriteRenderer.GetSpriteName()]);
         }
     }
     
