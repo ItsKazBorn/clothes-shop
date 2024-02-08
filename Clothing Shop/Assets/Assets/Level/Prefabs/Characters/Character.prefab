@@ -85,6 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32c0f71a0a87e8747bb19c1c12a3e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayer: 0
   m_spriteLayerControllers:
   - {fileID: 7159117638599502068}
   - {fileID: 8725281947034995966}
@@ -113,9 +114,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3356185055621299379}
     m_Modifications:
+    - target: {fileID: 175617739216909554, guid: bdf89d97ba8244349af169897f466b07, type: 3}
+      propertyPath: LayerSort
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 670666928222872729, guid: bdf89d97ba8244349af169897f466b07, type: 3}
       propertyPath: m_Name
       value: PaperDoll
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374574255137053741, guid: bdf89d97ba8244349af169897f466b07, type: 3}
+      propertyPath: LayerSort
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2422136435711311362, guid: bdf89d97ba8244349af169897f466b07, type: 3}
       propertyPath: m_RootOrder
@@ -160,6 +169,14 @@ PrefabInstance:
     - target: {fileID: 2422136435711311362, guid: bdf89d97ba8244349af169897f466b07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152039220623972683, guid: bdf89d97ba8244349af169897f466b07, type: 3}
+      propertyPath: LayerSort
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722632430649261377, guid: bdf89d97ba8244349af169897f466b07, type: 3}
+      propertyPath: m_baseSpriteSheetName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf89d97ba8244349af169897f466b07, type: 3}

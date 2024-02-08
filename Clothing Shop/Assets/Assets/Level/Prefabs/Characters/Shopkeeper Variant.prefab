@@ -15,10 +15,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 667711921478502808, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
-      propertyPath: m_baseSpriteSheetName
-      value: char_a_p1_4har_bob1_v01
-      objectReference: {fileID: 0}
     - target: {fileID: 874037540763551368, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
       propertyPath: m_Mass
       value: 10000
@@ -79,10 +75,6 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8725281947034995966, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
-      propertyPath: m_baseSpriteSheetName
-      value: char_a_p1_1out_pfpn_v04
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
 --- !u!1 &5667384660009782569 stripped
@@ -103,3 +95,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_prompt: Open Shop
+  m_animationController: {fileID: 8945294754830710838}
+  m_outfitCode: pfpn
+  m_hairCode: bob1
+--- !u!114 &8945294754830710838 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2231284379849881837, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
+  m_PrefabInstance: {fileID: 7121052465969823963}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667384660009782569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c0f71a0a87e8747bb19c1c12a3e908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
