@@ -12,6 +12,8 @@ public class GameInstaller : MonoInstaller
     {
         // Install Interfaces & Instances here
         Container.BindInterfacesAndSelfTo<SpriteSheetManager>().AsSingle();
+        Container.BindInterfacesAndSelfTo<PlayerInventory>().AsSingle();
+        Container.BindInterfacesAndSelfTo<PlayerWallet>().AsSingle();
 
         Container.BindInstance(m_mainCamera).AsSingle();
         
@@ -34,6 +36,14 @@ public class GameInstaller : MonoInstaller
         
         Container.DeclareSignal<OnAddCurrencySignal>();
         Container.DeclareSignal<OnCurrencyAmountChangedSignal>();
+        
+        Container.DeclareSignal<OnClothingShopOpenedSignal>();
+        Container.DeclareSignal<OnClothingShopClosedSignal>();
+        
+        Container.DeclareSignal<OnGameItemPurchasedSignal>();
+        Container.DeclareSignal<OnGameItemSoldSignal>();
+        Container.DeclareSignal<OnGameItemEquipedSignal>();
+        Container.DeclareSignal<OnShopItemSelectedSignal>();
         
         
     }

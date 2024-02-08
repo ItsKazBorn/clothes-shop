@@ -1,47 +1,40 @@
+using System;
 using System.Collections.Generic;
-using UnityEngine;
 using Zenject;
 
-public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
+public class PlayerInventory : IInitializable, IDisposable, IGameItemInventory
 {
-    [Inject] private SignalBus m_signalBus;
+    [Inject] private readonly SignalBus m_signalBus;
     
-    [SerializeField] private string m_prompt;
-
     public Dictionary<int, GameItem> Inventory { get; private set; }
-    public string InteractionPrompt => m_prompt;
 
-    private void Start()
+    public void Initialize()
     {
+        InitializeInventory();
+        
         m_signalBus.Subscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Subscribe<OnGameItemSoldSignal>(SoldItem);
     }
     
-    public void OnDestroy()
+    public void Dispose()
     {
         m_signalBus.Unsubscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Unsubscribe<OnGameItemSoldSignal>(SoldItem);
     }
     
+    public void InitializeInventory()
+    {
+        Inventory = new Dictionary<int, GameItem>();
+    }
+    
     private void BoughtItem(OnGameItemPurchasedSignal args)
     {
-        RemoveItem(args.Item);
+        AddItem(args.Item);
     }
     
     private void SoldItem(OnGameItemSoldSignal args)
     {
-        AddItem(args.Item);
-    }
-
-    public bool Interact(Interactor interactor)
-    {
-        m_signalBus.Fire(new OnClothingShopOpenedSignal(this));
-        return true;
-    }
-
-    public void InitializeInventory()
-    {
-        Inventory = new Dictionary<int, GameItem>();
+        RemoveItem(args.Item);
     }
 
     public void AddItem(GameItem item)
@@ -63,4 +56,6 @@ public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
     {
         Inventory.Remove(itemID);
     }
+
+    
 }
