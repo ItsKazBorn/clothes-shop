@@ -24,6 +24,23 @@ public class GameInstaller : MonoInstaller
     private void InstallPools()
     {
         // Bind Memory Pools here
+        Container.BindMemoryPool<UIShopItem, UIShopItem.Pool>()
+            .WithInitialSize(10)
+            .FromComponentInNewPrefab(m_settings.UIShopItemPrefab)
+            .WithGameObjectName("UIShopItem");
+        
+        Container.BindMemoryPool<UIButton, UIButton.Pool>()
+            .WithInitialSize(10)
+            .FromComponentInNewPrefab(m_settings.UIButtonPrefab)
+            .WithGameObjectName("UIButton");
+        
+        Container.BindMemoryPool<UITab, UITab.Pool>()
+            .WithInitialSize(10)
+            .FromComponentInNewPrefab(m_settings.UITabPrefab)
+            .WithGameObjectName("UITab");
+        
+        
+        
         
     }
 
@@ -51,9 +68,10 @@ public class GameInstaller : MonoInstaller
     [Serializable]
     public class Settings
     {
-        // Prefabs Here
-        public GameObject CharacterPrefab;
-        public GameObject PlayerPrefab;
+        // Pooled Prefabs Here
+        public GameObject UIShopItemPrefab;
+        public GameObject UIButtonPrefab;
+        public GameObject UITabPrefab;
         public GameObject ShopkeeperPrefab;
     }
 
