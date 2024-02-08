@@ -18,18 +18,40 @@ public class CharacterAnimationController : MonoBehaviour
     private void Awake()
     {
         m_equippedItems = new Dictionary<ItemSlot, GameItem>();
-        
-        if (IsPlayer) m_signalBus.Subscribe<OnGameItemEquipedSignal>(EquipItem);
+
+        if (IsPlayer)
+        {
+            m_signalBus.Subscribe<OnGameItemEquipedSignal>(EquipItem);
+            m_signalBus.Subscribe<OnGameItemSoldSignal>(UnequipItem);
+        }
     }
 
     private void OnDestroy()
     {
         m_signalBus.TryUnsubscribe<OnGameItemEquipedSignal>(EquipItem);
+        m_signalBus.TryUnsubscribe<OnGameItemSoldSignal>(UnequipItem);
     }
 
     private void EquipItem(OnGameItemEquipedSignal args)
     {
         EquipItem(args.Item);
+    }
+
+    private void UnequipItem(OnGameItemSoldSignal args)
+    {
+        UnequipItem(args.Item);
+    }
+    
+    private void UnequipItem(GameItem item)
+    {
+        if (m_equippedItems.ContainsKey(item.Slot))
+        {
+            if (m_equippedItems[item.Slot].Code.Equals(item.Code))
+            {
+                m_equippedItems.Remove(item.Slot);
+            }
+        }
+        UpdateSpriteSheets();
     }
 
     public void EquipItem(GameItem item)

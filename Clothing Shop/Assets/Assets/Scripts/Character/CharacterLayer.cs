@@ -47,6 +47,7 @@ public class CharacterLayer : MonoBehaviour
 
     public void SetLayerEnabled(bool enabled)
     {
+        m_spriteSwapper.SetEnabled(enabled);
         m_spriteHaver.SetSpriteEnabled(enabled);
     }
 

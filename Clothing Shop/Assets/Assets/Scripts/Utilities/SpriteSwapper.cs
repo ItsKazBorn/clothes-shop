@@ -10,11 +10,14 @@ public class SpriteSwapper
     private string m_loadedSpriteSheetName;
     private Dictionary<string, Sprite> m_spriteSheet;
 
+    private bool m_enabled;
+
     public SpriteSwapper(ISpriteHaver spriteRenderer, SpriteSheetManager spriteSheetManager)
     {
         m_spriteSheetManager = spriteSheetManager;
         m_spriteRenderer = spriteRenderer;
         m_spriteSheet = new Dictionary<string, Sprite>();
+        m_enabled = true;
     }
 
     public void LateUpdate()
@@ -26,6 +29,8 @@ public class SpriteSwapper
             LoadSpriteSheet();
         }
 
+        if (!m_enabled) return;
+        
         // Important: The name of the sprite must be the same!
         if (m_spriteRenderer.GetSprite() != m_spriteSheet[m_spriteRenderer.GetSpriteName()])
         {
@@ -44,6 +49,13 @@ public class SpriteSwapper
         
         // Remember the name of the sprite sheet in case it is changed later
         m_loadedSpriteSheetName = m_spriteSheetName;
+
+        m_enabled = true;
+    }
+
+    public void SetEnabled(bool enabled)
+    {
+        m_enabled = enabled;
     }
 
     public void SetSpriteSheet(string newSpriteSheetName)
