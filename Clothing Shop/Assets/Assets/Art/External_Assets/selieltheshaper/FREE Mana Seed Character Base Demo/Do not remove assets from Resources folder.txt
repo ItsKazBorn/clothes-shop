@@ -1,0 +1,3 @@
+Note: 
+Assets need to be inside the Resources folder to be loaded in the game. 
+Do not remove assets from the Resources folder.
