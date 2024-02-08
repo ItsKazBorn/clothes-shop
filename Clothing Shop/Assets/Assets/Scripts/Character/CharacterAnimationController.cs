@@ -8,7 +8,7 @@ public class CharacterAnimationController : MonoBehaviour
     [Inject] private SpriteSheetManager m_spriteSheetManager;
 
     [SerializeField] private bool IsPlayer;
-    [SerializeField] private CharacterSpriteLayerController[] m_spriteLayerControllers;
+    [SerializeField] private List<CharacterSpriteLayerController> m_spriteLayerControllers;
 
     private Dictionary<ItemSlot, GameItem> m_equippedItems;
     
@@ -51,8 +51,7 @@ public class CharacterAnimationController : MonoBehaviour
             }
             else
             {
-                if (layer.Slot == ItemSlot.BASE) return;
-                layer.SetLayerEnabled(false);
+                if (layer.Slot != ItemSlot.BASE) layer.SetLayerEnabled(false);
             }
         }
     }

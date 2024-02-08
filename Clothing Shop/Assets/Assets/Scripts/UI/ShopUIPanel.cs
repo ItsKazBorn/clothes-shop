@@ -133,7 +133,7 @@ public class ShopUIPanel : MonoBehaviour
     {
         foreach (UIShopItem item in m_items)
         {
-            item.Despawn();
+            m_itemPool.Despawn(item);
         }
         m_items.Clear();
     }
@@ -144,7 +144,7 @@ public class ShopUIPanel : MonoBehaviour
         {
             UIShopItem item = m_itemPool.Spawn(kvp.Value, m_isBuying);
             item.transform.SetParent(m_itemListPanel);
-            m_items.Append(item);
+            m_items.Add(item);
         }
     }
 

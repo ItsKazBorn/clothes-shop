@@ -27,11 +27,6 @@ public class UIShopItem : MonoBehaviour
         m_signalBus.Fire(new OnShopItemSelectedSignal(m_item));
     }
 
-    public void Despawn()
-    {
-        gameObject.SetActive(false);
-    }
-    
     public class Pool : MonoMemoryPool<GameItem, bool, UIShopItem>
     {
         protected override void Reinitialize(GameItem item, bool isBuying, UIShopItem uiShopItem)
