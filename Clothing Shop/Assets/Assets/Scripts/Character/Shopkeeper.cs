@@ -8,6 +8,11 @@ public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
     [Inject] private GameItemManager m_itemManager;
     
     [SerializeField] private string m_prompt;
+    [SerializeField] private CharacterAnimationController m_animationController;
+
+    [SerializeField] private string m_outfitCode;
+    [SerializeField] private string m_hairCode;
+    
 
     public Dictionary<int, GameItem> Inventory { get; private set; }
     public string InteractionPrompt => m_prompt;
@@ -17,6 +22,9 @@ public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
         m_signalBus.Subscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Subscribe<OnGameItemSoldSignal>(SoldItem);
         
+        m_animationController.EquipItem(m_itemManager.GetCopyOfItem(ItemSlot.OUTFIT, m_outfitCode));
+        m_animationController.EquipItem(m_itemManager.GetCopyOfItem(ItemSlot.HAIR, m_hairCode));
+
         InitializeInventory();
         
         GetAllItems();
