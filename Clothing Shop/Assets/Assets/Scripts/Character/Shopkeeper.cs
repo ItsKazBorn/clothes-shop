@@ -17,6 +17,8 @@ public class Shopkeeper : MonoBehaviour, IInteractible, IGameItemInventory
         m_signalBus.Subscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Subscribe<OnGameItemSoldSignal>(SoldItem);
         
+        InitializeInventory();
+        
         GetAllItems();
     }
     
