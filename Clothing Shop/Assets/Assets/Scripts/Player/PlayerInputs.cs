@@ -22,7 +22,8 @@ public class PlayerInputs : MonoBehaviour
 
     private void OnDestroy()
     {
-        throw new NotImplementedException();
+        m_signalBus.Unsubscribe<OnClothingShopOpenedSignal>(OnShopOpened);
+        m_signalBus.Unsubscribe<OnClothingShopClosedSignal>(OnShopClosed);
     }
 
     private void OnRun(InputValue value)
