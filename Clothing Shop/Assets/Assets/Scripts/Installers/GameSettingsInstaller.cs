@@ -5,6 +5,7 @@ using Zenject;
 public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInstaller>
 {
     public GameInstaller.Settings GameInstaller;
+    public PlayerWallet.Settings PlayerWallet;
     public SpriteSheetManager.Settings SpriteSheetManager;
     public GameItemManager.Settings GameItemManager;
     
@@ -12,6 +13,7 @@ public class GameSettingsInstaller : ScriptableObjectInstaller<GameSettingsInsta
     {
         // Bind Instances here
         Container.BindInstance(GameInstaller);
+        Container.BindInstance(PlayerWallet);
         Container.BindInstance(GameItemManager);
         Container.BindInstance(SpriteSheetManager);
         
