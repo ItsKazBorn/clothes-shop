@@ -9,10 +9,9 @@ public class ShopUIPanel : MonoBehaviour
 {
     [Inject] private SignalBus m_signalBus;
     [Inject] private UIShopItem.Pool m_itemPool;
-    [Inject] private UITab.Pool m_tabPool;
+    [Inject] private UITab.TabPool m_tabPool;
     [Inject] private UIButton.Pool m_buttonPool;
     [Inject] private PlayerInventory m_playerInventory;
-    [Inject] private PlayerWallet m_playerWallet;
 
     [SerializeField] private GameObject m_shopPanel;
     [SerializeField] private Button m_closeShopButton;
@@ -25,7 +24,7 @@ public class ShopUIPanel : MonoBehaviour
     private UITab m_sellTab;
     private UIButton m_buyButton;
     private UIButton m_equipButton;
-    private UIShopItem[] m_items;
+    private List<UIShopItem> m_items;
 
     private Shopkeeper m_shopkeeper;
     private GameItem m_selectedItem;
@@ -40,6 +39,8 @@ public class ShopUIPanel : MonoBehaviour
     
     void Start()
     {
+        m_items = new List<UIShopItem>();
+        
         m_signalBus.Subscribe<OnClothingShopOpenedSignal>(SetUp);
         m_signalBus.Subscribe<OnShopItemSelectedSignal>(SelectItem);
         
@@ -134,6 +135,7 @@ public class ShopUIPanel : MonoBehaviour
         {
             item.Despawn();
         }
+        m_items.Clear();
     }
 
     private void SpawnItems(Dictionary<int, GameItem> itemDictionary)
@@ -167,16 +169,5 @@ public class ShopUIPanel : MonoBehaviour
     private void SelectItem(GameItem item)
     {
         m_selectedItem = item;
-    }
-    
-
-    private void OnEnable()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void OnDisable()
-    {
-        throw new NotImplementedException();
     }
 }

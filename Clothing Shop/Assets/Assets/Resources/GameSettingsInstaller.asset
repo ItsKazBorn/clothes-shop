@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: GameSettingsInstaller
   m_EditorClassIdentifier: 
   GameInstaller:
-    CharacterPrefab: {fileID: 3203632938540109298, guid: 6a85ac134e07ec548987332c6a1e3314, type: 3}
-    PlayerPrefab: {fileID: 2556021923498647436, guid: 45b585ca3b1879f438bb41612a7c816a, type: 3}
+    UIShopItemPrefab: {fileID: 3520225183024963410, guid: 141dd50f8278a754b9f5e56355ee9866, type: 3}
+    UIButtonPrefab: {fileID: 1531943443290816242, guid: c83bd7ef9ccc75d44a16d7f231009cc1, type: 3}
+    UITabPrefab: {fileID: 1882667398219413359, guid: 9c7139213139cfe49a3db6dde32a1b6e, type: 3}
     ShopkeeperPrefab: {fileID: 5667384660009782569, guid: e197a59cdff82b5469f87adec1389b84, type: 3}
+  PlayerWallet:
+    StartMoney: 500
   SpriteSheetManager:
     CharSpriteSheetCodes:
     - Code: a
@@ -25,29 +28,62 @@ MonoBehaviour:
         Sorting: 0
         SpriteSheetCodes:
         - Code: humn
-          Version: 1
       - Code: out
         Sorting: 1
         SpriteSheetCodes:
         - Code: boxr
-          Version: 1
         - Code: fstr
-          Version: 4
         - Code: pfpn
-          Version: 4
         - Code: undi
-          Version: 1
       - Code: har
         Sorting: 4
         SpriteSheetCodes:
         - Code: bob1
-          Version: 1
         - Code: dap1
-          Version: 1
       - Code: hat
         Sorting: 5
         SpriteSheetCodes:
         - Code: pfht
-          Version: 4
         - Code: pnty
-          Version: 4
+  GameItemManager:
+    ItemInfos:
+    - Name: Boxers
+      Slot: 1
+      Code: boxr
+      BuyValue: 5
+      SellValue: 2
+    - Name: Forester
+      Slot: 1
+      Code: fstr
+      BuyValue: 15
+      SellValue: 10
+    - Name: Pfpn
+      Slot: 1
+      Code: pfpn
+      BuyValue: 20
+      SellValue: 10
+    - Name: Undies
+      Slot: 1
+      Code: undi
+      BuyValue: 7
+      SellValue: 3
+    - Name: Bob
+      Slot: 2
+      Code: bob1
+      BuyValue: 20
+      SellValue: 15
+    - Name: Dap
+      Slot: 2
+      Code: dap1
+      BuyValue: 20
+      SellValue: 15
+    - Name: Pf Hat
+      Slot: 3
+      Code: pfht
+      BuyValue: 10
+      SellValue: 7
+    - Name: Pointy Hat
+      Slot: 3
+      Code: pnty
+      BuyValue: 25
+      SellValue: 20

@@ -6,7 +6,8 @@ using Image = UnityEngine.UI.Image;
 public class UIShopItem : MonoBehaviour
 {
     [Inject] private SignalBus m_signalBus;
-    
+    [Inject] private SpriteSheetManager m_spriteSheetManager;
+
     [SerializeField] private Button m_button;
     [SerializeField] private Image m_itemIcon;
     [SerializeField] private UITextPanel m_coinPanel;
@@ -16,7 +17,7 @@ public class UIShopItem : MonoBehaviour
     private void SetUp(GameItem item, bool isBuying)
     {
         m_item = item;
-        m_itemIcon.sprite = item.Icon;
+        m_itemIcon.sprite = m_spriteSheetManager.GetItemIcon(item.Slot, item.Code);
         m_coinPanel.SetUp(isBuying ? item.BuyValue.ToString() : item.SellValue.ToString());
         m_button.onClick.AddListener(OnClick);
     }

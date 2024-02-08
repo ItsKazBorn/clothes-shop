@@ -1,9 +1,11 @@
 
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum ItemSlot
 {
+    BASE,
     OUTFIT,
     HAIR,
     HAT,
@@ -18,18 +20,14 @@ public class GameItem
     private int m_buyValue;
     private int m_sellValue;
     private string m_code;
-    private int m_paperDollLayer;
-    private Sprite m_icon;
     private ItemSlot m_slot;
 
     public string Name => m_name;
-    public Sprite Icon => m_icon;
     public int BuyValue => m_buyValue;
     public int SellValue => m_sellValue;
     public string Code => m_code;
-    public int PaperDollLayer => m_paperDollLayer;
-
-
+    public ItemSlot Slot => m_slot;
+    
     public GameItem(string name, int buyValue, int sellValue, string code, ItemSlot slot)
     {
         ItemID = nextId;
@@ -41,6 +39,4 @@ public class GameItem
         m_code = code;
         m_slot = slot;
     }
-
-    
 }
