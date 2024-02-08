@@ -9,4 +9,6 @@ public class PlayerPreviewLayer : CharacterLayer
         m_spriteHaver = m_image;
         base.Start();
     }
+    
+    
 }

@@ -63,7 +63,7 @@ public class ShopUIPanel : MonoBehaviour
         m_shopkeeper = args.Shop;
         
         m_shopPanel.SetActive(true);
-
+        
         BuyTabSelected();
     }
 
@@ -121,6 +121,8 @@ public class ShopUIPanel : MonoBehaviour
         
         m_buyButton.SetUp(m_isBuying ? m_buyItem : m_sellItem);
         m_equipButton.gameObject.SetActive(!m_isBuying);
+        
+        m_playerPreview.ClearItem();
     }
 
     private void UpdateItemList()
@@ -153,12 +155,14 @@ public class ShopUIPanel : MonoBehaviour
         if (m_isBuying) m_signalBus.Fire(new OnGameItemPurchasedSignal(m_selectedItem));
         else m_signalBus.Fire(new OnGameItemSoldSignal(m_selectedItem));
         
+        m_playerPreview.ClearItem();
         UpdateItemList();
     }
     
     private void EquipItemButtonClicked()
     {
         m_signalBus.Fire(new OnGameItemEquipedSignal(m_selectedItem));
+        m_playerPreview.ClearItem();
     }
 
     private void SelectItem(OnShopItemSelectedSignal args)
@@ -169,5 +173,6 @@ public class ShopUIPanel : MonoBehaviour
     private void SelectItem(GameItem item)
     {
         m_selectedItem = item;
+        m_playerPreview.OnItemSelected(item);
     }
 }
