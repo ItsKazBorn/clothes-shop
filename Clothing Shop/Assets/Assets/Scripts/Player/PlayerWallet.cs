@@ -11,9 +11,11 @@ public class PlayerWallet : IInitializable, IDisposable
     public void Initialize()
     {
         m_currency = m_settings.StartMoney;
+        
         m_signalBus.Subscribe<OnAddCurrencySignal>(ChangeCurrencyBy);
         m_signalBus.Subscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Subscribe<OnGameItemSoldSignal>(SoldItem);
+        m_signalBus.Subscribe<OnClothingShopOpenedSignal>(UpdateCoinPanel);
     }
     
     public void Dispose()
@@ -21,6 +23,12 @@ public class PlayerWallet : IInitializable, IDisposable
         m_signalBus.Unsubscribe<OnAddCurrencySignal>(ChangeCurrencyBy);
         m_signalBus.Unsubscribe<OnGameItemPurchasedSignal>(BoughtItem);
         m_signalBus.Unsubscribe<OnGameItemSoldSignal>(SoldItem);
+        m_signalBus.Unsubscribe<OnClothingShopOpenedSignal>(UpdateCoinPanel);
+    }
+
+    private void UpdateCoinPanel(OnClothingShopOpenedSignal args)
+    {
+        ChangeCurrencyBy(0);
     }
     
     private void ChangeCurrencyBy(OnAddCurrencySignal args)
